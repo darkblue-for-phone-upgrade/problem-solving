@@ -1,4 +1,5 @@
-{function simpleArraySum(ar) {
+{
+function simpleArraySum(ar) {
   let sum = 0;
   ar.map((e) => {
     sum += e;
