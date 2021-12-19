@@ -1,4 +1,4 @@
-{
+```js
 function simpleArraySum(ar) {
   let sum = 0;
   ar.map((e) => {
@@ -6,4 +6,4 @@ function simpleArraySum(ar) {
   });
   return sum;
 }
-}
+```
