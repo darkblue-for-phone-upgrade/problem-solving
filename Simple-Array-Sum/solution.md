@@ -1,9 +1,5 @@
 ```js
 function simpleArraySum(ar) {
-  let sum = 0;
-  ar.map((e) => {
-    sum += e;
-  });
-  return sum;
+  return ar.reduce((prev, curr) => prev + curr);
 }
 ```
